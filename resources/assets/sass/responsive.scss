@@ -3,7 +3,9 @@
     .container {
         max-width: 960px;
     }
-
+    canvas{
+        height: 690px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -30,6 +32,9 @@
               margin-top: 40px;
             }
         }
+    }
+    canvas{
+        height: 690px;
     }
 
     .featured-section {
@@ -157,6 +162,10 @@
           padding-left: 0;
           margin-top: 40px;
         }
+    }
+
+    canvas{
+        height: 690px;
     }
 
 }
