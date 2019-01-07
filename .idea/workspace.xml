@@ -381,12 +381,12 @@
       <workItem from="1546613663618" duration="15191000" />
       <workItem from="1546638666885" duration="1174000" />
       <workItem from="1546677051364" duration="2182000" />
-      <workItem from="1546771995471" duration="35929000" />
+      <workItem from="1546771995471" duration="36217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97316000" />
+    <option name="totallyTimeSpent" value="97604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,9 +399,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.1510574" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.1510574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.500998" side_tool="true" weight="0.1510574" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,7 +415,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151056" side_tool="true" weight="0.6699187" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848944" weight="0.3219512" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49848944" visible="true" weight="0.60487807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
