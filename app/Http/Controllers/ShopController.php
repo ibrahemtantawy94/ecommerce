@@ -24,7 +24,7 @@ class ShopController extends Controller
             $categoryName = optional($categories->where('slug',request()->category)->first())->name;
         }
     else{
-            $products = Product::take(15);
+            $products = Product::take(15)->inRandomOrder();
             $categories = Category::all();
             $categoryName= 'Items';
         }
