@@ -81,7 +81,7 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="env" value="22" />
-          <entry key="php" value="3009" />
+          <entry key="php" value="3057" />
           <entry key="scss" value="207" />
         </counts>
       </usages-collector>
@@ -89,7 +89,7 @@
         <counts>
           <entry key=".env file" value="22" />
           <entry key="Blade" value="1130" />
-          <entry key="PHP" value="1879" />
+          <entry key="PHP" value="1927" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="207" />
         </counts>
@@ -122,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShopController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            <state relative-caret-position="-291">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
@@ -381,12 +381,12 @@
       <workItem from="1546638666885" duration="1174000" />
       <workItem from="1546677051364" duration="2182000" />
       <workItem from="1546771995471" duration="36616000" />
-      <workItem from="1546850378962" duration="3213000" />
+      <workItem from="1546850378962" duration="4352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101216000" />
+    <option name="totallyTimeSpent" value="102355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +401,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.15332326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.15332326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.500998" side_tool="true" weight="0.1510574" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,7 +416,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151056" side_tool="true" weight="0.6699187" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848944" weight="0.70894307" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848944" weight="0.3089431" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -749,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShopController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        <state relative-caret-position="-291">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
