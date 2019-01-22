@@ -339,7 +339,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="236">
               <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-end-line="42" selection-end-column="46" />
             </state>
           </provider>
@@ -710,12 +710,12 @@
       <workItem from="1547883811519" duration="10226000" />
       <workItem from="1547974346926" duration="2802000" />
       <workItem from="1547989095782" duration="5261000" />
-      <workItem from="1548175026819" duration="2766000" />
+      <workItem from="1548175026819" duration="3870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262110000" />
+    <option name="totallyTimeSpent" value="263214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +744,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505287" side_tool="true" weight="0.4715447" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49471298" visible="true" weight="0.36747968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49471298" visible="true" weight="0.1691057" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1085,7 +1085,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="236">
           <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-end-line="42" selection-end-column="46" />
         </state>
       </provider>
