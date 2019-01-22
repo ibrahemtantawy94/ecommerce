@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/resources/views/my-profile.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/orders.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/orders/read.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
@@ -269,11 +270,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="env" value="1" />
           <entry key="php" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="1" />
           <entry key="Blade" value="3" />
           <entry key="PHP" value="1" />
         </counts>
@@ -325,11 +328,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-618">
+            <state relative-caret-position="-571">
               <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -377,7 +389,6 @@
         <option value="$PROJECT_DIR$/resources/views/cool.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/services.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/app/OrderProduct.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
@@ -402,6 +413,7 @@
         <option value="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
         <option value="$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -519,7 +531,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="1346" />
     <option name="height" value="636" />
@@ -625,7 +637,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/vendor/tcg/voyager/resources/views/login.blade.php&#10;password&#9;null&#9;null&#10;reset&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/resources/views/auth/passwords/reset.blade.php&#10;footer&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/resources/views/partials/footer.blade.php&#10;lan&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;nav&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/partials/nav.blade.php&#10;chec&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;landin&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;landing-&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;shopC&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/ShopController.php&#10;product&#9;null&#9;null&#10;help&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/helpers.php&#10;cartc&#9;null&#9;null&#10;read&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/vendor/tcg/voyager/resources/views/bread/read.blade.php&#10;compos&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;env&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;land&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;na&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/partials/nav.blade.php&#10;shop&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/shop.blade.php&#10;check&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;web&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/routes/web.php&#10;admin&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/vendor/tcg/voyager/resources/views/menu/admin_menu.blade.php&#10;orders&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/orders.blade.php&#10;my&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/my-profile.blade.php&#10;helper&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/helpers.php&#10;prod&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Product.php&#10;order&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Order.php&#10;user&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/User.php&#10;we&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/routes/web.php&#10;auth&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/auth.php&#10;serv&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/services.php&#10;.env&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;.en&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;.&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;co&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;.e&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;composer&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;services&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/services.php&#10;config&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/bootstrap/cache/config.php&#10;ord&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/OrdersController.php&#10;my-order&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/my-orders.blade.php&#10;OrdersC&#9;null&#9;null&#10;Reg&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/Auth/RegisterController.php&#10;re&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/auth/register.blade.php&#10;my-p&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/assets/sass/pages/my-profile.scss&#10;app.sc&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/assets/sass/app.scss&#10;thank&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/thankyou.blade.php&#10;che&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;car&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/cart.blade.php&#10;reg&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/auth/register.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="env&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/.env&#10;login&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/vendor/tcg/voyager/resources/views/login.blade.php&#10;password&#9;null&#9;null&#10;reset&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/resources/views/auth/passwords/reset.blade.php&#10;footer&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce final/E-Commerce/resources/views/partials/footer.blade.php&#10;lan&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;nav&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/partials/nav.blade.php&#10;chec&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;landin&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;landing-&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;shopC&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/ShopController.php&#10;product&#9;null&#9;null&#10;help&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/helpers.php&#10;cartc&#9;null&#9;null&#10;read&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/vendor/tcg/voyager/resources/views/bread/read.blade.php&#10;compos&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;land&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/landing-page.blade.php&#10;na&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/partials/nav.blade.php&#10;shop&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/shop.blade.php&#10;check&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;web&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/routes/web.php&#10;admin&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/vendor/tcg/voyager/resources/views/menu/admin_menu.blade.php&#10;orders&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/orders.blade.php&#10;my&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/my-profile.blade.php&#10;helper&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/helpers.php&#10;prod&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Product.php&#10;order&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Order.php&#10;user&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/User.php&#10;we&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/routes/web.php&#10;auth&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/auth.php&#10;serv&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/services.php&#10;.env&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;.en&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;.&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;co&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;.e&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/.env&#10;composer&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/composer.json&#10;services&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/config/services.php&#10;config&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/bootstrap/cache/config.php&#10;ord&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/OrdersController.php&#10;my-order&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/my-orders.blade.php&#10;OrdersC&#9;null&#9;null&#10;Reg&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/app/Http/Controllers/Auth/RegisterController.php&#10;re&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/auth/register.blade.php&#10;my-p&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/assets/sass/pages/my-profile.scss&#10;app.sc&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/assets/sass/app.scss&#10;thank&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/thankyou.blade.php&#10;che&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/checkout.blade.php&#10;car&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/cart.blade.php&#10;reg&#9;FILE&#9;file:///home/ibrahem/Desktop/Projectss/E-Commerce/resources/views/auth/register.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -699,12 +711,12 @@
       <workItem from="1547883811519" duration="10226000" />
       <workItem from="1547974346926" duration="2802000" />
       <workItem from="1547989095782" duration="5261000" />
-      <workItem from="1548175026819" duration="1605000" />
+      <workItem from="1548175026819" duration="2002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260949000" />
+    <option name="totallyTimeSpent" value="261346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,6 +729,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49593496" visible="true" weight="0.24018127" />
       <window_info id="Structure" order="1" sideWeight="0.50406504" side_tool="true" weight="0.21223564" />
@@ -733,7 +746,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505287" side_tool="true" weight="0.4715447" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49471298" visible="true" weight="0.4715447" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49471298" visible="true" weight="0.6699187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -887,13 +900,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/compass/includes/styles.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/bread/read.blade.php">
@@ -1074,8 +1080,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
+        <state relative-caret-position="-571">
           <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
