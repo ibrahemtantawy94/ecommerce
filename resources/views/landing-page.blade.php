@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel Ecommerce Example</title>
+        <title>Bestseller</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7CRoboto:300,400,700" rel="stylesheet">
@@ -33,27 +33,47 @@
     <body>
         <header class=""  id="particles-js" style="background-color: #18b6b6">
             <div class="top-nav container">
-                <div class="logo">Laravel Ecommerce</div>
+                <div class="top-nav-left">
+                    <div class="logo">Bestseller</div>
+                </div>
                 <ul>
                     <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                    <li><a href="#">About</a></li>
                     <li>
                         <a href="{{ route('cart.index') }}">Cart <span class="cart-count">
                             @if (Cart::instance('default')->count() > 0)
-                            <span>{{ Cart::instance('default')->count() }}</span></span>
+                                    <span>{{ Cart::instance('default')->count() }}</span></span>
                             @endif
                         </a>
                     </li>
+                    @guest
+                        <li><a href="{{route('login')}}">Login</a></li>
+                        <li><a href="{{route('register')}}">Register</a></li>
+                    @else
+                        <li>
+                            <a href="{{route('users.edit')}}">My Profile</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                               document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    @endguest
                 </ul>
             </div> <!-- end top-nav -->
             <div class="hero container">
                 <div class="hero-copy">
-                    <h1>Laravel Ecommerce Demo</h1>
-                    <p style="margin-bottom:20px;">Includes multiple products, categories, <br>
-                        a shopping cart and a checkout system with Stripe integration.</p>
+                    <h1>Everything You Want</h1>
+                    <p style="margin-bottom:20px;">The Website Includes multiple products, categories, <br>
+                        a shopping cart and a checkout system with Stripe integration With Admin Panel.</p>
                 </div> <!-- end hero-copy -->
 
-                <div class="hero-image">
+                <div class="hero-image" style="margin-left: 700px">
                     <img src="img/macbook-pro-laravel.png" alt="hero image">
                 </div> <!-- end hero-image -->
             </div> <!-- end hero -->
@@ -62,10 +82,7 @@
         <div class="featured-section">
 
             <div class="container">
-                <h1 class="text-center">Laravel Ecommerce</h1>
-
-                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vitae nisi, consequuntur illum dolores cumque pariatur quis provident deleniti nesciunt officia est reprehenderit sunt aliquid possimus temporibus enim eum hic.</p>
-
+                <h1 class="text-center">Some of our Products</h1>
                 <div class="text-center button-container">
                 </div>
 

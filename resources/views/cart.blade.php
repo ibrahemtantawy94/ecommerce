@@ -20,6 +20,22 @@
             border-radius: 15px;
             border: none;
         }
+        #ConShop{
+            background-color: white;
+            color: #e80659;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+        #ConShop:hover{
+            background-color: #e80659;
+            border-radius: 15px;
+            border: 1px solid black;
+            color: whitesmoke;
+        }
+        .pro{
+            border-radius: 15px;
+            border: none;
+        }
     </style>
 </head>
 
@@ -112,7 +128,7 @@
 
             <div class="cart-buttons">
                 <a href="{{route('shop.index')}}" class="button cont" style="color:white;">Continue Shopping</a>
-                <a href="{{route('checkout.index')}}" class="button-primary">Proceed to Checkout</a>
+                <a href="{{route('checkout.index')}}" class="button-primary pro">Proceed to Checkout</a>
             </div>
 
             @else

@@ -30,6 +30,12 @@
                   .StripeElement--webkit-autofill {
                     background-color: #fefde5 !important;
                   }
+            .bttn{
+                border-radius: 5px;
+            }
+            .form-group input{
+                border: 1px solid #00B9B7;
+            }
                   
                 </style>
 </head>
@@ -64,39 +70,43 @@
 
                     {{ csrf_field() }}
                     <h2>Billing Details</h2>
-
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" class="form-control" id="email" name="email" value="{{old('email')}}" required>
+                        @if(auth()->user())
+                            <input type="email" class="form-control bttn" id="email" name="email" value="{{auth()->user()->email}}" readonly>
+                        @else
+                            <input type="email" class="form-control bttn" id="email" name="email" value="{{old('email')}}" required>
+
+                        @endif
                     </div>
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" value="{{old('name')}}" required>
+                        <input type="text" class="form-control bttn" id="name" name="name" value="{{old('name')}}" required>
                     </div>
                     <div class="form-group">
                         <label for="address">Address</label>
-                        <input type="text" class="form-control" id="address" name="address" value="{{old('address')}}" required>
+                        <input type="text" class="form-control bttn" id="address" name="address" value="{{old('address')}}" required>
                     </div>
 
                     <div class="half-form">
                         <div class="form-group">
                             <label for="city">City</label>
-                            <input type="text" class="form-control" id="city" name="city" value="{{old('city')}}" required>
+                            <input type="text" class="form-control bttn" id="city" name="city" value="{{old('city')}}" required>
                         </div>
                         <div class="form-group">
                             <label for="province">Province</label>
-                            <input type="text" class="form-control" id="province" name="province" value="{{old('province')}}" required>
+                            <input type="text" class="form-control bttn" id="province" name="province" value="{{old('province')}}" required>
                         </div>
                     </div> <!-- end half-form -->
 
                     <div class="half-form">
                         <div class="form-group">
                             <label for="postalcode">Postal Code</label>
-                            <input type="text" class="form-control" id="postalcode" name="postalcode" value="{{old('postalcode')}}" required>
+                            <input type="text" class="form-control bttn" id="postalcode" name="postalcode" value="{{old('postalcode')}}" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone</label>
-                            <input type="text" class="form-control" id="phone" name="phone" value="{{old('phone')}}" required>
+                            <input type="text" class="form-control bttn" id="phone" name="phone" value="{{old('phone')}}" required>
                         </div>
                     </div> <!-- end half-form -->
 
@@ -106,14 +116,14 @@
 
                     <div class="form-group">
                         <label for="name_on_card">Name on Card</label>
-                        <input type="text" class="form-control" id="name_on_card" name="name_on_card" value="{{old('name_on_card')}}" required>
+                        <input type="text" class="form-control bttn" id="name_on_card" name="name_on_card" value="{{old('name_on_card')}}" required>
                     </div>
 
                     <div class="form-group">
                             <label for="card-element">
                               Credit or debit card
                             </label>
-                            <div id="card-element">
+                            <div id="card-element" class="bttn">
                               <!-- A Stripe Element will be inserted here. -->
                             </div>
                         
@@ -145,7 +155,7 @@
 
                     <div class="spacer"></div>
 
-                    <button type="submit" class="button-primary full-width">Complete Order</button>
+                    <button type="submit" class="button-primary full-width bttn">Complete Order</button>
 
 
                 </form>
@@ -197,7 +207,7 @@
     <script>
         (function(){
             // Create a Stripe client.
-var stripe = Stripe('pk_test_tNUl2OnjTPQvZ1c3jxmj4PU2');
+var stripe = Stripe('pk_test_i8z1Q1uGAtGL59zFanHggGoP');
 
 // Create an instance of Elements.
 var elements = stripe.elements();

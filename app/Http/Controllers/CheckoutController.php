@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\CheckoutRequest;
+use App\Order;
+use App\Product;
+use App\OrderProduct;
 use Cartalyst\Stripe\Exception\CardErrorException;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Cartalyst\Stripe\Laravel\Facades\Stripe;
@@ -58,13 +61,51 @@ class CheckoutController extends Controller
                     ],
                 ]);
 
+            $this->addToOrdersTables($request,null);
             Cart::instance('default')->destroy();
             return redirect()->route('confirmation.index')->with('success_message' ,'Thank You , Your order is confirmed and shipped now' );
 
         }catch(CardErrorException $e){
-
+            $this->addToOrdersTables($request,$e->getMessage());
             return back()->withErrors('Error ' .$e->getMessage());
         }
+    }
+
+    protected function addToOrdersTables($request,$error){
+        $order = Order::create([
+            'user_id' => auth()->user() ? auth()->user()->id : 2,
+            'billing_email' => $request->email,
+            'billing_name' => $request->name,
+            'billing_address' => $request->address,
+            'billing_city' => $request->city,
+            'billing_province' => $request->province,
+            'billing_postalcode' => $request->postalcode,
+            'billing_phone' => $request->phone,
+            'billing_name_on_card' => $request->name_on_card,
+            'billing_subtotal' => $this->getNumbers()->get('newSubtotal'),
+            'billing_total' => $this->getNumbers()->get('newTotal'),
+            'error' => $error,
+        ]);
+
+        foreach (Cart::content() as $item){
+            OrderProduct::create([
+                'order_id'=> $order->id,
+                'product_id' => $item->model->id,
+                'quantity' => $item->qty,
+            ]);
+        }
+
+    }
+
+    private function getNumbers()
+    {
+
+        $newSubtotal = (Cart::subtotal() / 100);
+        $newTotal = $newSubtotal;
+        return collect([
+            'newSubtotal' => $newSubtotal,
+            'newTotal' => $newTotal,
+        ]);
     }
 
     /**

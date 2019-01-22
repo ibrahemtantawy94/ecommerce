@@ -1,0 +1,47 @@
+.auth-pages {
+  margin: 50px auto;
+  display: flex;
+  min-height: 60vh;
+
+  input {
+    border: 1px solid $text-color-light;
+    padding: 16px 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+  }
+
+
+  .auth-button {
+    background: white;
+    color: #00B9B7;
+    border-radius: 5px;
+    border: 1px solid $text-color;
+    padding: 12px 50px;
+
+    &:hover {
+      background: #00B9B7;
+      color: $white;
+    }
+  }
+
+  .auth-button-hollow {
+    background: white;
+    color: #F10053;
+    border-radius: 5px;
+    border: 1px solid $text-color;
+    padding: 12px 50px;
+
+    &:hover {
+      background: #F10053;
+      color: $white;
+    }
+  }
+
+
+}
