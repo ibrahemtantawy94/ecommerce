@@ -118,7 +118,6 @@
       <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/thankyou.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thankyou.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +328,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-618">
               <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
             </state>
           </provider>
@@ -700,12 +699,12 @@
       <workItem from="1547883811519" duration="10226000" />
       <workItem from="1547974346926" duration="2802000" />
       <workItem from="1547989095782" duration="5261000" />
-      <workItem from="1548175026819" duration="344000" />
+      <workItem from="1548175026819" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259688000" />
+    <option name="totallyTimeSpent" value="260077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +717,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49593496" visible="true" weight="0.24018127" />
       <window_info id="Structure" order="1" sideWeight="0.50406504" side_tool="true" weight="0.21223564" />
@@ -1076,7 +1074,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-618">
           <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
         </state>
       </provider>
